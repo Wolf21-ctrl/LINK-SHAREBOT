@@ -16,7 +16,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "40"))
 COMMAND_PHOTO = os.environ.get("COMMAND_PHOTO", "https://ibb.co/ymqNYxyd")  # Replace with your photo URL
 START_PIC = os.environ.get("START_PIC", "https://ibb.co/mVv86t7c")
 START_MSG = os.environ.get("START_MESSAGE", "Hᴇʟʟᴏ {mention} ~\n\n <b><blockquote>» I ᴀᴍ ᴀ ᴀᴅᴠᴀɴᴄᴇ ʟɪɴᴋ sʜᴀʀᴇ ʙᴏᴛ ᴛʜʀᴏᴜɢʜ ᴡʜɪᴄʜ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴛʜᴇ ʟɪɴᴋs ᴏғ sᴘᴇᴄɪғɪᴄ</blockquote></b>")
-ABOUT_TXT = os.environ.get("HELP_MESSAGE", "<i><b><blockquote>◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/Animeflio_Support_bot</a>\n◈ ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ: <a href='https://t.me/Animeflio'>ᴀɴɪᴍᴇ</a>\n◈ ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ: <a href='https://t.me/Wave_Domaim'>ᴀɴɪᴍᴇ ᴄʜᴀᴛ</a>\n» ᴏᴡɴᴇʀ: <a href='https://t.me/Animeflio_Support_bot'>WAVE</a></blockquote></b></i>")
+ABOUT_TXT = os.environ.get("HELP_MESSAGE", "<i><b><blockquote>◈ ᴄʀᴇᴀᴛᴏʀ: <a href= <a href='https://t.me/Animeflio_Support_Bot'>WAVE</a>\n◈ ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ: <a href='https://t.me/Animeflio'>ᴀɴɪᴍᴇ</a>\n◈ ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ: <a href='https://t.me/Wave_Domaim'>ᴀɴɪᴍᴇ ᴄʜᴀᴛ</a>\n» ᴏᴡɴᴇʀ: <a href='https://t.me/Animeflio_Support_bot'>WAVE</a></blockquote></b></i>")
 HELP_TXT =  os.environ.get("HELP_MESSAGE", "⁉️ Hᴇʟʟᴏ {mention} ~\n\n <b><blockquote expandable>➪ I ᴀᴍ ᴀ ᴘʀɪᴠᴀᴛᴇ ʟɪɴᴋ sʜᴀʀɪɴɢ ʙᴏᴛ, ᴍᴇᴀɴᴛ ᴛᴏ ᴘʀᴏᴠɪᴅᴇ ʟɪɴᴋ ғᴏʀ sᴘᴇᴄɪғɪᴄ ᴄʜᴀɴɴᴇʟs.\n\n ➪ Iɴ ᴏʀᴅᴇʀ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ʟɪɴᴋs ʏᴏᴜ ʜᴀᴠᴇ ᴛᴏ ᴊᴏɪɴ ᴛʜᴇ ᴀʟʟ ᴍᴇɴᴛɪᴏɴᴇᴅ ᴄʜᴀɴɴᴇʟ ᴛʜᴀᴛ ɪ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴛᴏ ᴊᴏɪɴ. Yᴏᴜ ᴄᴀɴ ɴᴏᴛ ᴀᴄᴄᴇss ᴏʀ ɢᴇᴛ ᴛʜᴇ ғɪʟᴇs ᴜɴʟᴇss ʏᴏᴜ ᴊᴏɪɴᴇᴅ ᴀʟʟ ᴄʜᴀɴɴᴇʟs.\n\n ‣ /help - Oᴘᴇɴ ᴛʜɪs ʜᴇʟᴘ ᴍᴇssᴀɢᴇ !</blockquote></b>")
 FSUB_PIC = os.environ.get("FSUB_PIC", "https://ibb.co/ymqNYxyd")
 FSUB_LINK_EXPIRY = 300
