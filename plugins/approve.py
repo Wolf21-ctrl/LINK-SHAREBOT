@@ -46,7 +46,7 @@ async def auto_approve(client: Bot, message: ChatJoinRequest):
     try:
         invite_link = await client.export_chat_invite_link(chat.id)
         buttons = [
-            [InlineKeyboardButton('• Cʟɪᴄᴋ ʜᴇʀᴇ •', url=invite_link)]
+            [InlineKeyboardButton('• ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ •', url=invite_link)]
         ]
         markup = InlineKeyboardMarkup(buttons)
         caption_approve_ka = (
@@ -56,7 +56,7 @@ async def auto_approve(client: Bot, message: ChatJoinRequest):
         
         await client.send_photo(
             chat_id=user.id,
-            photo='https://ibb.co/DHqBS4V7',
+            photo='https://i.postimg.cc/L8Fd9mX8/IMG-20260616-155546-391.jpg',
             caption=caption_approve_ka,
             reply_markup=markup
         )
