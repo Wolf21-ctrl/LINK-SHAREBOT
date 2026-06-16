@@ -19,7 +19,7 @@ START_MSG = os.environ.get("START_MESSAGE", "Hᴇʟʟᴏ {mention} ~\n\n <b><blo
 ABOUT_TXT = os.environ.get("HELP_MESSAGE", "<i><b><blockquote>» ᴄʀᴇᴀᴛᴏʀ: <a href='https://t.me/Animeflio_Support_Bot'>WAVE</a>\n» ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ: <a href='https://t.me/Animeflio'>ᴀɴɪᴍᴇ</a>\n» ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ: <a href='https://t.me/Wave_Domain'>ᴀɴɪᴍᴇ ᴄʜᴀᴛ</a>\n» ᴏᴡɴᴇʀ: <a href='https://t.me/Animeflio_Support_bot'>WAVE</a></blockquote></b></i>")
 CHANNEL_TXT = os.environ.get("HELP_MESSAGE", "<b><blockquote>» Aɴɪᴍᴇ ɪɴᴅᴇx: <a href='https://t.me/Animeflio_Index'>ɪɴᴅᴇx</a>\n» Aɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ: <a href='https://t.me/Animeflio'>ᴀɴɪᴍᴇ</a>\n» Sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ: <a href='https://t.me/Wave_Domain'>ᴀɴɪᴍᴇ ᴄʜᴀᴛ</a>\n» Oᴡɴᴇʀ: <a href='https://t.me/Animeflio_Support_bot'>WAVE</a></blockquote></b>")
 HELP_TXT =  os.environ.get("HELP_MESSAGE", " Hᴇʟʟᴏ! {mention} \n\n <b><blockquote expandable>» I ᴀᴍ ᴀ ᴘʀɪᴠᴀᴛᴇ ʟɪɴᴋ sʜᴀʀɪɴɢ ʙᴏᴛ, ᴍᴇᴀɴᴛ ᴛᴏ ᴘʀᴏᴠɪᴅᴇ ʟɪɴᴋ ғᴏʀ sᴘᴇᴄɪғɪᴄ ᴄʜᴀɴɴᴇʟs.\n\n ➪ Iɴ ᴏʀᴅᴇʀ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ʟɪɴᴋs ʏᴏᴜ ʜᴀᴠᴇ ᴛᴏ ᴊᴏɪɴ ᴛʜᴇ ᴀʟʟ ᴍᴇɴᴛɪᴏɴᴇᴅ ᴄʜᴀɴɴᴇʟ. Yᴏᴜ ᴄᴀɴ ɴᴏᴛ ᴀᴄᴄᴇss ᴏʀ ɢᴇᴛ ᴛʜᴇ ғɪʟᴇs ᴜɴʟᴇss ʏᴏᴜ ᴊᴏɪɴᴇᴅ ᴀʟʟ ᴄʜᴀɴɴᴇʟs.\n\n ‣ /help - Oᴘᴇɴ ᴛʜɪs ʜᴇʟᴘ ᴍᴇssᴀɢᴇ !</blockquote></b>")
-FSUB_PIC = os.environ.get("FSUB_PIC", "https://i.postimg.cc/bJmKy8t2/f1c013ffd2aa69debc7addd6d6c6981d.jpg")
+FSUB_PIC = os.environ.get("FSUB_PIC", "https://i.postimg.cc/HxDdFbMd/f1c013ffd2aa69debc7addd6d6c6981d.jpg")
 FSUB_LINK_EXPIRY = 180
 LOG_FILE_NAME = "CantarellaBots.txt"
 DATABASE_CHANNEL = int(os.environ.get("DATABASE_CHANNEL", ""))
