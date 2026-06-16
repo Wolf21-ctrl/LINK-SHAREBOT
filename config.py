@@ -13,8 +13,8 @@ PORT = os.environ.get("PORT", "8080")
 DB_URL = os.environ.get("DB_URI", "")
 DB_NAME = os.environ.get("DB_NAME", "CantarellaBots")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "40"))
-COMMAND_PHOTO = os.environ.get("COMMAND_PHOTO", "https://ibb.co/ymqNYxyd")  # Replace with your photo URL
-START_PIC = os.environ.get("START_PIC", "https://ibb.co/mVv86t7c")
+COMMAND_PHOTO = os.environ.get("COMMAND_PHOTO", "https://i.postimg.cc/9fMP3hcV/3a57b32dd38e769aa89432ad836f5b1d.jpg")  # Replace with your photo URL
+START_PIC = os.environ.get("START_PIC", "https://i.postimg.cc/9fMP3hcV/3a57b32dd38e769aa89432ad836f5b1d.jpg")
 START_MSG = os.environ.get("START_MESSAGE", "Hᴇʟʟᴏ {mention} ~\n\n <b><blockquote>» I ᴀᴍ ᴀ ᴀᴅᴠᴀɴᴄᴇ ʟɪɴᴋ sʜᴀʀᴇ ʙᴏᴛ ᴛʜʀᴏᴜɢʜ ᴡʜɪᴄʜ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴛʜᴇ ʟɪɴᴋs ᴏғ sᴘᴇᴄɪғɪᴄ ᴄʜᴀɴɴᴇʟs.</blockquote></b>")
 ABOUT_TXT = os.environ.get("HELP_MESSAGE", "<i><b><blockquote>» ᴄʀᴇᴀᴛᴏʀ: <a href='https://t.me/Animeflio_Support_Bot'>WAVE</a>\n» ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ: <a href='https://t.me/Animeflio'>ᴀɴɪᴍᴇ</a>\n» ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ: <a href='https://t.me/Wave_Domain'>ᴀɴɪᴍᴇ ᴄʜᴀᴛ</a>\n» ᴏᴡɴᴇʀ: <a href='https://t.me/Animeflio_Support_bot'>WAVE</a></blockquote></b></i>")
 CHANNEL_TXT = os.environ.get("HELP_MESSAGE", "<b><blockquote>» Aɴɪᴍᴇ ɪɴᴅᴇx: <a href='https://t.me/Animeflio_Index'>ɪɴᴅᴇx</a>\n» Aɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ: <a href='https://t.me/Animeflio'>ᴀɴɪᴍᴇ</a>\n» Sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ: <a href='https://t.me/Wave_Domain'>ᴀɴɪᴍᴇ ᴄʜᴀᴛ</a>\n» Oᴡɴᴇʀ: <a href='https://t.me/Animeflio_Support_bot'>WAVE</a></blockquote></b>")
