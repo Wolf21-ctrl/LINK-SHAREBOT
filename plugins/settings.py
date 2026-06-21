@@ -114,7 +114,7 @@ async def settings_callback(client: Bot, callback_query):
             user = await client.get_users(OWNER_ID)
             await callback_query.edit_message_media(
                 InputMediaPhoto(
-                    "https://i.postimg.cc/MX2txrdy/6e63247fcaa79110de40461eca504738-(1).jpg",
+                    "https://ibb.co/yGgJ27z",
                     ABOUT_TXT
                 ),
                 reply_markup=InlineKeyboardMarkup([
