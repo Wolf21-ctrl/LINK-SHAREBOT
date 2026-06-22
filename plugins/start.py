@@ -319,7 +319,7 @@ async def start_command(client: Bot, message: Message):
                                 parse_mode=ParseMode.HTML
                             )
                     
-                    button = InlineKeyboardMarkup([[InlineKeyboardButton("• ᴄʟɪᴄᴋ ʜᴇʀᴇ •", url=invite_link)]])
+                    button = InlineKeyboardMarkup([[InlineKeyboardButton("• ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ •", url=invite_link)]])
                     
                     wait_msg = await message.reply_text(
                         "<b><i>ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ...</i></b>",
