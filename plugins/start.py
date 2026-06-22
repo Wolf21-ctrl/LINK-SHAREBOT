@@ -266,7 +266,7 @@ async def start_command(client: Bot, message: Message):
                 original_link = await Seishiro.get_original_link(channel_id)
                 if original_link:
                     button = InlineKeyboardMarkup(
-                        [[InlineKeyboardButton("• ᴄʟɪᴄᴋ ʜᴇʀᴇ •", url=original_link)]]
+                        [[InlineKeyboardButton("• ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ •", url=original_link)]]
                     )
                     return await message.reply_text(
                         "<b><blockquote expandable>ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ! ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ᴛᴏ ᴘʀᴏᴄᴇᴇᴅ</blockquote></b>",
@@ -336,7 +336,7 @@ async def start_command(client: Bot, message: Message):
                     )
                     
                     note_msg = await message.reply_text(
-                        "<blockquote><b>‣ ɴᴏᴛᴇ: <u>ᴛʜɪs ᴍᴇssᴀɢᴇ ᴡɪʟʟ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ ɪɴ ғᴇᴡ ᴍɪɴᴜᴛᴇs. Iғ ᴛʜᴇ ʟɪɴᴋ ɪs ᴇxᴘɪʀᴇᴅ so ᴛʀʏ ᴀɢᴀɪɴ.</u></b></blockquote>",
+                        "<blockquote><b>‣ ɴᴏᴛᴇ: <u>ᴛʜɪꜱ ʟɪɴᴋ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ɪɴ ᴀ ꜰᴇᴡ ᴍɪɴᴜᴛᴇꜱ. Iғ ᴛʜᴇ ʟɪɴᴋ ɪs ᴇxᴘɪʀᴇᴅ so ᴛʀʏ ᴀɢᴀɪɴ.</u></b></blockquote>",
                         parse_mode=ParseMode.HTML
                     )
                     
