@@ -336,7 +336,7 @@ async def start_command(client: Bot, message: Message):
                     )
                     
                     note_msg = await message.reply_text(
-                        "<b>⚠️ Wᴀʀɴɪɴɢ ⚠️</b>\n\n<blockquote><b><i>Tʜɪs ᴍᴇssᴀɢᴇ ᴡɪʟʟ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ ɪɴ ғᴇᴡ ᴍɪɴᴜᴛᴇs. Iғ ᴛʜᴇ ʟɪɴᴋ ɪs ᴇxᴘɪʀᴇᴅ so ᴛʀʏ ᴀɢᴀɪɴ.</i></b></blockquote>",
+                        "<blockquote><b>‣ ɴᴏᴛᴇ: <u>ᴛʜɪs ᴍᴇssᴀɢᴇ ᴡɪʟʟ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ ɪɴ ғᴇᴡ ᴍɪɴᴜᴛᴇs. Iғ ᴛʜᴇ ʟɪɴᴋ ɪs ᴇxᴘɪʀᴇᴅ so ᴛʀʏ ᴀɢᴀɪɴ.</u></b></blockquote>",
                         parse_mode=ParseMode.HTML
                     )
                     
