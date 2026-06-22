@@ -50,7 +50,7 @@ async def auto_approve(client: Bot, message: ChatJoinRequest):
         ]
         markup = InlineKeyboardMarkup(buttons)
         caption_approve_ka = (
-            f"<b>⁉️ Bᴀᴋᴀᴀᴀ!!!... {user.mention}</b>,\n\n"
+            f"<b>❗Bᴀᴋᴀᴀᴀ!!!... {user.mention}</b>,\n\n"
             f"<b><blockquote>ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴊᴏɪɴ {chat.title} ʜᴀs ʙᴇᴇɴ ᴀᴘᴘʀᴏᴠᴇᴅ.</blockquote></b>"
         )
         
